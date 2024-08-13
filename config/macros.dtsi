@@ -1,3 +1,27 @@
+macro_1pwcopy: macro_1pwcopy{
+compatible = "zmk,behavior-macro";
+label = "macro_1pwcopy";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LSHIFT>, <&kp C>;
+};
+macro_1pw: macro_1pw{
+compatible = "zmk,behavior-macro";
+label = "macro_1pw";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LSHIFT>, <&kp SPACE>;
+};
+macro_sshot: macro_sshot{
+compatible = "zmk,behavior-macro";
+label = "macro_sshot";
+#binding-cells = <0>;
+bindings = <&kp LGUI>, <&kp LSHIFT>, <&kp S>;
+};
+macro_macro_console: macro_macro_console{
+compatible = "zmk,behavior-macro";
+label = "macro_macro_console";
+#binding-cells = <0>;
+bindings = <&kp LGUI>, <&kp GRAVE>;
+};
 macro_macro_alttab: macro_macro_alttab{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_alttab";

@@ -14,7 +14,7 @@ macro_sshot: macro_sshot{
 compatible = "zmk,behavior-macro";
 label = "macro_sshot";
 #binding-cells = <0>;
-bindings = <&macro_press &kp LGUI>, <&macro_press &kp LSHIFT>, <&macro_tap &kp S>, <&macro_relesase &kp LGUI>, <&macro_relesase &kp LSHIFT>;
+bindings = <&kt LGUI>, <&kt LSHIFT>, <&kp S>;
 };
 macro_macro_console: macro_macro_console{
 compatible = "zmk,behavior-macro";

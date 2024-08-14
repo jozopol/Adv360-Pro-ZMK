@@ -2,13 +2,13 @@ macro_1pwcopy: macro_1pwcopy{
 compatible = "zmk,behavior-macro";
 label = "macro_1pwcopy";
 #binding-cells = <0>;
-bindings = <&kt LCTRL>, <&kt LSHIFT>, <&kp C>;
+bindings = <&macro_press &kp LCTRL>, <&macro_press &kp LSHIFT>, <&macro_tap &kp C>, <&macro_release &kp LCTRL>, <&macro_release &kp LSHIFT>;
 };
 macro_1pw: macro_1pw{
 compatible = "zmk,behavior-macro";
 label = "macro_1pw";
 #binding-cells = <0>;
-bindings = <&kt LCTRL>, <&kt LSHIFT>, <&kp SPACE>;
+bindings = <&macro_press &kp LCTRL>, <&macro_press &kp LSHIFT>, <&macro_tap &kp SPACE>, <&macro_release &kp LCTRL>, <&macro_release &kp LSHIFT>;
 };
 macro_sshot: macro_sshot{
 compatible = "zmk,behavior-macro";
@@ -20,7 +20,7 @@ macro_macro_console: macro_macro_console{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_console";
 #binding-cells = <0>;
-bindings = <&kt LGUI>, <&kp GRAVE>;
+bindings = <&macro_press &kp LGUI>, <&macro_tap &kp GRAVE>, <&macro_release &kp LGUI>;
 };
 macro_macro_alttab: macro_macro_alttab{
 compatible = "zmk,behavior-macro";

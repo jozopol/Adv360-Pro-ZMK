@@ -1,5 +1,5 @@
-#!/bin/bash
+#!/bin/zsh
 cd /mnt/c/Dev/github/Adv360-Pro-ZMK
-rm firmware/*.uf2
+rm ./firmware/*.uf2
 make -f Makefile
-ee firmware/
+explorer.exe ./firmware/

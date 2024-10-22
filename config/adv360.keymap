@@ -19,7 +19,7 @@
 #include <dt-bindings/zmk/backlight.h>
 
 &lt {
-  tapping-term-ms = <300>;
+  tapping-term-ms = <200>;
 };
 
 
